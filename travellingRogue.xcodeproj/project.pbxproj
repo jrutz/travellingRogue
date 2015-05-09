@@ -15,13 +15,15 @@
 		DF27BC181AF8044F00B8D747 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC161AF8044F00B8D747 /* LaunchScreen.xib */; };
 		DF27BC241AF8045000B8D747 /* travellingRogueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC231AF8045000B8D747 /* travellingRogueTests.m */; };
 		DF27BC351AF80A7500B8D747 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC341AF80A7500B8D747 /* TableViewController.m */; };
-		DF27BC381AF80DB500B8D747 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC371AF80DB500B8D747 /* Student.m */; };
 		DF27BC3A1AF8109E00B8D747 /* kittenGroup.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */; };
 		DF27BC3D1AF810D600B8D747 /* platypus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC3B1AF810D600B8D747 /* platypus.jpg */; };
 		DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC3C1AF810D600B8D747 /* kitten.jpg */; };
 		DF27BC411AF8131000B8D747 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC401AF8131000B8D747 /* detailViewController.m */; };
 		DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC421AF81EB800B8D747 /* floral.jpg */; };
-		DF27BC461AF8354900B8D747 /* collectionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */; };
+		DFD45F5B1AFDCD6B0080404F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5A1AFDCD6B0080404F /* FBSDKShareKit.framework */; };
+		DFD45F5D1AFDCD740080404F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5C1AFDCD740080404F /* FBSDKLoginKit.framework */; };
+		DFD45F5F1AFDCD7A0080404F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5E1AFDCD7A0080404F /* FBSDKCoreKit.framework */; };
+		DFD45F611AFDDB6E0080404F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFD45F601AFDDB6E0080404F /* Info.plist */; };
 		DFE490F71AFD2E4E00B2DBFE /* Cafe.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE490F61AFD2E4E00B2DBFE /* Cafe.m */; };
 		DFE490FC1AFD5D7400B2DBFE /* mokah.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490F81AFD5D7400B2DBFE /* mokah.JPG */; };
 		DFE490FD1AFD5D7400B2DBFE /* houndsooth.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490F91AFD5D7400B2DBFE /* houndsooth.JPG */; };
@@ -41,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		DF27BC041AF8044F00B8D747 /* travellingRogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travellingRogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF27BC081AF8044F00B8D747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF27BC091AF8044F00B8D747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF27BC0B1AF8044F00B8D747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF27BC0C1AF8044F00B8D747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,16 +56,16 @@
 		DF27BC231AF8045000B8D747 /* travellingRogueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travellingRogueTests.m; sourceTree = "<group>"; };
 		DF27BC331AF80A7500B8D747 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		DF27BC341AF80A7500B8D747 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		DF27BC361AF80DB500B8D747 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		DF27BC371AF80DB500B8D747 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kittenGroup.jpeg; sourceTree = "<group>"; };
 		DF27BC3B1AF810D600B8D747 /* platypus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platypus.jpg; sourceTree = "<group>"; };
 		DF27BC3C1AF810D600B8D747 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
 		DF27BC3F1AF8131000B8D747 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
 		DF27BC401AF8131000B8D747 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 		DF27BC421AF81EB800B8D747 /* floral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floral.jpg; sourceTree = "<group>"; };
-		DF27BC441AF8354900B8D747 /* collectionCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionCollectionViewController.h; sourceTree = "<group>"; };
-		DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionCollectionViewController.m; sourceTree = "<group>"; };
+		DFD45F5A1AFDCD6B0080404F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		DFD45F5C1AFDCD740080404F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		DFD45F5E1AFDCD7A0080404F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		DFD45F601AFDDB6E0080404F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFE490F51AFD2E4E00B2DBFE /* Cafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cafe.h; sourceTree = "<group>"; };
 		DFE490F61AFD2E4E00B2DBFE /* Cafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cafe.m; sourceTree = "<group>"; };
 		DFE490F81AFD5D7400B2DBFE /* mokah.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mokah.JPG; sourceTree = "<group>"; };
@@ -78,6 +79,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFD45F5D1AFDCD740080404F /* FBSDKLoginKit.framework in Frameworks */,
+				DFD45F5F1AFDCD7A0080404F /* FBSDKCoreKit.framework in Frameworks */,
+				DFD45F5B1AFDCD6B0080404F /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +101,9 @@
 				DF27BC061AF8044F00B8D747 /* travellingRogue */,
 				DF27BC201AF8044F00B8D747 /* travellingRogueTests */,
 				DF27BC051AF8044F00B8D747 /* Products */,
+				DFD45F5E1AFDCD7A0080404F /* FBSDKCoreKit.framework */,
+				DFD45F5C1AFDCD740080404F /* FBSDKLoginKit.framework */,
+				DFD45F5A1AFDCD6B0080404F /* FBSDKShareKit.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,12 +129,8 @@
 				DF27BC141AF8044F00B8D747 /* Images.xcassets */,
 				DF27BC161AF8044F00B8D747 /* LaunchScreen.xib */,
 				DF27BC071AF8044F00B8D747 /* Supporting Files */,
-				DF27BC361AF80DB500B8D747 /* Student.h */,
-				DF27BC371AF80DB500B8D747 /* Student.m */,
 				DF27BC3F1AF8131000B8D747 /* detailViewController.h */,
 				DF27BC401AF8131000B8D747 /* detailViewController.m */,
-				DF27BC441AF8354900B8D747 /* collectionCollectionViewController.h */,
-				DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */,
 				DFE490F51AFD2E4E00B2DBFE /* Cafe.h */,
 				DFE490F61AFD2E4E00B2DBFE /* Cafe.m */,
 			);
@@ -142,7 +145,7 @@
 				DFE490FA1AFD5D7400B2DBFE /* mudsmith.JPG */,
 				DFE490FB1AFD5D7400B2DBFE /* weekend.JPG */,
 				DF27BC421AF81EB800B8D747 /* floral.jpg */,
-				DF27BC081AF8044F00B8D747 /* Info.plist */,
+				DFD45F601AFDDB6E0080404F /* Info.plist */,
 				DF27BC091AF8044F00B8D747 /* main.m */,
 				DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */,
 				DF27BC3B1AF810D600B8D747 /* platypus.jpg */,
@@ -256,6 +259,7 @@
 				DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */,
 				DFE490FF1AFD5D7400B2DBFE /* weekend.JPG in Resources */,
 				DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */,
+				DFD45F611AFDDB6E0080404F /* Info.plist in Resources */,
 				DF27BC151AF8044F00B8D747 /* Images.xcassets in Resources */,
 				DF27BC3A1AF8109E00B8D747 /* kittenGroup.jpeg in Resources */,
 				DFE490FD1AFD5D7400B2DBFE /* houndsooth.JPG in Resources */,
@@ -278,9 +282,7 @@
 			files = (
 				DFE490F71AFD2E4E00B2DBFE /* Cafe.m in Sources */,
 				DF27BC101AF8044F00B8D747 /* LoginViewController.m in Sources */,
-				DF27BC461AF8354900B8D747 /* collectionCollectionViewController.m in Sources */,
 				DF27BC0D1AF8044F00B8D747 /* AppDelegate.m in Sources */,
-				DF27BC381AF80DB500B8D747 /* Student.m in Sources */,
 				DF27BC0A1AF8044F00B8D747 /* main.m in Sources */,
 				DF27BC351AF80A7500B8D747 /* TableViewController.m in Sources */,
 				DF27BC411AF8131000B8D747 /* detailViewController.m in Sources */,
@@ -409,6 +411,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Jones/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = travellingRogue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +427,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/Jones/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = travellingRogue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -15,9 +15,10 @@
 @property (strong, nonatomic) NSString* detail;
 @property (strong, nonatomic) NSString* hours;
 @property (strong, nonatomic) UIImage* photo;
+@property (strong, nonatomic) NSString* fbLink;
 
 
--(id)initWithName:(NSString*)name andPhoto:(UIImage*)photo andHours:(NSString*)hours andDetail:(NSString*)detail;
+-(id)initWithName:(NSString*)name andPhoto:(UIImage*)photo andHours:(NSString*)hours andDetail:(NSString*)detail andFacebook:(NSString*)fbLink;
 
 
 @end

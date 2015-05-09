@@ -8,6 +8,7 @@
 
 #import "TableViewController.h"
 #import "DetailViewController.h"
+
 #import "Cafe.h"
 
 @interface TableViewController ()
@@ -28,9 +29,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    
-    //self.objects = [self createStudents];
-    
+        
     
 }
 
@@ -63,25 +62,6 @@
     
     return cell;
 }
-/*
-- (NSMutableArray*)createStudents {
-    NSMutableArray* students = [[NSMutableArray alloc] init];
-    
-    Cafe* johna = [[Cafe alloc] initWithName:@"Johna" andPhoto:[UIImage imageNamed:@"kittenGroup.jpeg"] andDetail:@"So Tired"];
-    
-    Cafe* will = [[Cafe alloc] initWithName:@"Will" andPhoto:[UIImage imageNamed:@"platypus.jpg"] andDetail:@"Expert Rippler"];
-    
-    Cafe* jason = [[Cafe alloc] initWithName:@"Jason" andPhoto:[UIImage imageNamed:@"kitten.jpg"] andDetail:@"This is not Jason"];
-    
-    [students addObject:johna];
-    [students addObject:will];
-    [students addObject:jason];
-
-    
-    return students;
-}*/
-
-
 
 
 

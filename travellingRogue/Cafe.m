@@ -10,7 +10,7 @@
 
 @implementation Cafe
 
--(id)initWithName:(NSString*)name andPhoto:(UIImage*)photo andHours:(NSString*)hours andDetail:(NSString*)detail;
+-(id)initWithName:(NSString*)name andPhoto:(UIImage*)photo andHours:(NSString*)hours andDetail:(NSString*)detail andFacebook:(NSString *)fbLink;
 {
     self = [super init];
     
@@ -18,6 +18,7 @@
     self.photo = photo;
     self.detail = detail;
     self.hours = hours;
+    self.fbLink = fbLink;
     
   
     return self;

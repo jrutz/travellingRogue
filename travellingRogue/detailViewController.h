@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "Cafe.h"
-#import "Student.h"
+
+
 
 @interface detailViewController : UIViewController
 
 @property (strong, nonatomic) Cafe* cafe;
-@property (strong, nonatomic) Student* student;
+
 
 @end

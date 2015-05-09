@@ -66,12 +66,44 @@
                     <view key="view" contentMode="scaleToFill" id="8yj-Ei-K8V">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dYK-MQ-bHP">
+                                <rect key="frame" x="-8" y="64" width="600" height="600"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="gDf-dQ-D4w" kind="show" identifier="showLocation" id="2gx-dV-mAm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IXr-aD-Hq3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2879" y="358"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="PJc-kv-BuF">
+            <objects>
+                <viewController id="gDf-dQ-D4w" customClass="MapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SC1-dR-Jc9"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mzo-3O-r2Q"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dcC-lo-Nmb" customClass="webView">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tg8-G8-6BO" customClass="WebViewController">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9s7-nH-2st" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3565" y="358"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="haw-PU-avB">

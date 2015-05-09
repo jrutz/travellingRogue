@@ -7,6 +7,11 @@
 //
 
 #import "DetailViewController.h"
+#import "LoginViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
+#import <FBSDKShareKit/FBSDKShareKit.h>
+
 
 @interface detailViewController ()
 
@@ -20,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    
     // this code is to ge the screen size of the hardware you are using
     self.screenSize = [[NSMutableDictionary alloc] init];
     CGRect screenRect = [[UIScreen mainScreen] bounds];
@@ -30,22 +36,61 @@
     self.screenSize[@"height"] = height;
     self.screenSize[@"width"] = width;
     
-
+    
     UIImageView* imageView = [[UIImageView alloc] initWithImage:self.cafe.photo];
     imageView.frame = CGRectMake(0.0, 64.0, [self.screenSize[@"width"] floatValue], [self.screenSize[@"width"] floatValue]);
-    [self.view addSubview:imageView];
+ 
     
     // adding the name to the subview
     UILabel* nameLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+64, [self.screenSize[@"width"] floatValue], 40.0)];
     nameLabel.textAlignment = NSTextAlignmentCenter;
     [nameLabel setText:self.cafe.name];
-    [self.view addSubview:nameLabel];
+
+    UILabel* hoursLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+100, [self.screenSize[@"width"] floatValue], 40.0)];
+    hoursLabel.textAlignment = NSTextAlignmentCenter;
+    [hoursLabel setText:@"Hours of Operation"];
     
     // adding the description to the subview
-    UILabel* detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+80, [self.screenSize[@"width"] floatValue], 40.0)];
+    UILabel* detailLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+120, [self.screenSize[@"width"] floatValue], 40.0)];
     detailLabel.textAlignment = NSTextAlignmentCenter;
     [detailLabel setText:self.cafe.hours];
-    [self.view addSubview:detailLabel];
+   
+    
+    UILabel* addressLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+140, [self.screenSize[@"width"] floatValue], 40.0)];
+    addressLabel.textAlignment = NSTextAlignmentCenter;
+    [addressLabel setText:self.cafe.detail];
+
+    
+    UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, [self.screenSize[@"width"] floatValue]+180, [self.screenSize[@"width"] floatValue], 400.0)];
+    
+    
+    NSString *urlString = [NSString stringWithFormat:@"https://www.google.com/maps/place/%@/", _cafe.name];
+    NSURL *url = [NSURL URLWithString:urlString];
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url];
+    [webView loadRequest:urlRequest];
+   
+    
+    FBSDKLikeControl *button = [[FBSDKLikeControl alloc] initWithFrame:CGRectMake(100.0,[self.screenSize[@"width"] floatValue]+600, [self.screenSize[@"width"] floatValue], 400.0)];
+   
+    button.objectID = self.cafe.fbLink;
+    
+    
+    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:self.view.bounds];
+    
+    
+    [scrollView setContentSize:CGSizeMake(scrollView.bounds.size.width, scrollView.bounds.size.height*2)];
+    [self.view addSubview:scrollView];
+    scrollView.pagingEnabled = YES;
+    
+    //Adding all views to the scrollView
+    [scrollView addSubview:button];
+    [scrollView addSubview:hoursLabel];
+    [scrollView addSubview:imageView];
+    [scrollView addSubview:nameLabel];
+    [scrollView addSubview:detailLabel];
+    [scrollView addSubview:addressLabel];
+    [scrollView addSubview:webView];
+    
     
 }
 
