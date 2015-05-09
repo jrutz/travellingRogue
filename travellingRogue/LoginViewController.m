@@ -20,6 +20,7 @@
 
 @implementation LoginViewController
 
+//Upon loading, the view checks for a token from facebook and will display the user's name if appropriate, as well as a login/logout button and a prompt to view the list of coffee shops.
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -103,6 +104,7 @@
 }
 
 
+//Parses a list of cafe details from Apiary and places them in an array
 - (void) getCafe {
     NSURL *URL = [NSURL URLWithString:@"http://private-cad91-jsquared.apiary-mock.com/notes"];
     
@@ -145,6 +147,7 @@
     
 }
 
+//Createseach indidvidual cafe
 - (NSMutableArray*) createEachCafe {
     NSMutableArray* cafes = [[NSMutableArray alloc] init];
     
