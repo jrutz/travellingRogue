@@ -7,6 +7,14 @@
 - Is looking for new coffee places to check out
 - May forget where he/she has been, uses GPS on a regular basis
 - Wants a simple list to refer to when making plans or looking for a place to go
+- 
+
+### Setup Information
+- Designed in XCode 6.3.1 
+- Simulated with attached iOS Simulator on iPhone 5s
+- Must have or be willing to have a facebook account to login
+- There's some funky things with persistence/reaction to the facebook access token - persistence is across launches and the app makes this evident by displaying the users name after the second launch if the user does not log out. 
+- Scrolling on the simulator is ocassionally a bit tricky, but it's there, I promise.
 
 EC
 
