@@ -7,7 +7,7 @@
 - Is looking for new coffee places to check out
 - May forget where he/she has been, uses GPS on a regular basis
 - Wants a simple list to refer to when making plans or looking for a place to go
-- 
+
 
 ### Setup Information
 - Designed in XCode 6.3.1 
