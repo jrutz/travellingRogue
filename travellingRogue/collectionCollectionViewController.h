@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  collectionCollectionViewController.h
 //  travellingRogue
 //
 //  Created by Johna Rutz on 5/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface collectionCollectionViewController : UICollectionViewController
 
 @end
-

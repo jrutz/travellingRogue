@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		DF27BC0A1AF8044F00B8D747 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC091AF8044F00B8D747 /* main.m */; };
 		DF27BC0D1AF8044F00B8D747 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC0C1AF8044F00B8D747 /* AppDelegate.m */; };
-		DF27BC101AF8044F00B8D747 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC0F1AF8044F00B8D747 /* ViewController.m */; };
+		DF27BC101AF8044F00B8D747 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC0F1AF8044F00B8D747 /* LoginViewController.m */; };
 		DF27BC131AF8044F00B8D747 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC111AF8044F00B8D747 /* Main.storyboard */; };
 		DF27BC151AF8044F00B8D747 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC141AF8044F00B8D747 /* Images.xcassets */; };
 		DF27BC181AF8044F00B8D747 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC161AF8044F00B8D747 /* LaunchScreen.xib */; };
 		DF27BC241AF8045000B8D747 /* travellingRogueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC231AF8045000B8D747 /* travellingRogueTests.m */; };
+		DF27BC351AF80A7500B8D747 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC341AF80A7500B8D747 /* TableViewController.m */; };
+		DF27BC381AF80DB500B8D747 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC371AF80DB500B8D747 /* Student.m */; };
+		DF27BC3A1AF8109E00B8D747 /* kittenGroup.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */; };
+		DF27BC3D1AF810D600B8D747 /* platypus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC3B1AF810D600B8D747 /* platypus.jpg */; };
+		DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC3C1AF810D600B8D747 /* kitten.jpg */; };
+		DF27BC411AF8131000B8D747 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC401AF8131000B8D747 /* detailViewController.m */; };
+		DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC421AF81EB800B8D747 /* floral.jpg */; };
+		DF27BC461AF8354900B8D747 /* collectionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */; };
+		DFE490F71AFD2E4E00B2DBFE /* Cafe.m in Sources */ = {isa = PBXBuildFile; fileRef = DFE490F61AFD2E4E00B2DBFE /* Cafe.m */; };
+		DFE490FC1AFD5D7400B2DBFE /* mokah.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490F81AFD5D7400B2DBFE /* mokah.JPG */; };
+		DFE490FD1AFD5D7400B2DBFE /* houndsooth.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490F91AFD5D7400B2DBFE /* houndsooth.JPG */; };
+		DFE490FE1AFD5D7400B2DBFE /* mudsmith.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490FA1AFD5D7400B2DBFE /* mudsmith.JPG */; };
+		DFE490FF1AFD5D7400B2DBFE /* weekend.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DFE490FB1AFD5D7400B2DBFE /* weekend.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +45,32 @@
 		DF27BC091AF8044F00B8D747 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF27BC0B1AF8044F00B8D747 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF27BC0C1AF8044F00B8D747 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DF27BC0E1AF8044F00B8D747 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DF27BC0F1AF8044F00B8D747 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF27BC0E1AF8044F00B8D747 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DF27BC0F1AF8044F00B8D747 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		DF27BC121AF8044F00B8D747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF27BC141AF8044F00B8D747 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DF27BC171AF8044F00B8D747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DF27BC1D1AF8044F00B8D747 /* travellingRogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = travellingRogueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF27BC221AF8045000B8D747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF27BC231AF8045000B8D747 /* travellingRogueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = travellingRogueTests.m; sourceTree = "<group>"; };
+		DF27BC331AF80A7500B8D747 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DF27BC341AF80A7500B8D747 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DF27BC361AF80DB500B8D747 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		DF27BC371AF80DB500B8D747 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kittenGroup.jpeg; sourceTree = "<group>"; };
+		DF27BC3B1AF810D600B8D747 /* platypus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platypus.jpg; sourceTree = "<group>"; };
+		DF27BC3C1AF810D600B8D747 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		DF27BC3F1AF8131000B8D747 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
+		DF27BC401AF8131000B8D747 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
+		DF27BC421AF81EB800B8D747 /* floral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floral.jpg; sourceTree = "<group>"; };
+		DF27BC441AF8354900B8D747 /* collectionCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collectionCollectionViewController.h; sourceTree = "<group>"; };
+		DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = collectionCollectionViewController.m; sourceTree = "<group>"; };
+		DFE490F51AFD2E4E00B2DBFE /* Cafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cafe.h; sourceTree = "<group>"; };
+		DFE490F61AFD2E4E00B2DBFE /* Cafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cafe.m; sourceTree = "<group>"; };
+		DFE490F81AFD5D7400B2DBFE /* mokah.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mokah.JPG; sourceTree = "<group>"; };
+		DFE490F91AFD5D7400B2DBFE /* houndsooth.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = houndsooth.JPG; sourceTree = "<group>"; };
+		DFE490FA1AFD5D7400B2DBFE /* mudsmith.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mudsmith.JPG; sourceTree = "<group>"; };
+		DFE490FB1AFD5D7400B2DBFE /* weekend.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = weekend.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +114,22 @@
 			children = (
 				DF27BC0B1AF8044F00B8D747 /* AppDelegate.h */,
 				DF27BC0C1AF8044F00B8D747 /* AppDelegate.m */,
-				DF27BC0E1AF8044F00B8D747 /* ViewController.h */,
-				DF27BC0F1AF8044F00B8D747 /* ViewController.m */,
+				DF27BC0E1AF8044F00B8D747 /* LoginViewController.h */,
+				DF27BC0F1AF8044F00B8D747 /* LoginViewController.m */,
+				DF27BC331AF80A7500B8D747 /* TableViewController.h */,
+				DF27BC341AF80A7500B8D747 /* TableViewController.m */,
 				DF27BC111AF8044F00B8D747 /* Main.storyboard */,
 				DF27BC141AF8044F00B8D747 /* Images.xcassets */,
 				DF27BC161AF8044F00B8D747 /* LaunchScreen.xib */,
 				DF27BC071AF8044F00B8D747 /* Supporting Files */,
+				DF27BC361AF80DB500B8D747 /* Student.h */,
+				DF27BC371AF80DB500B8D747 /* Student.m */,
+				DF27BC3F1AF8131000B8D747 /* detailViewController.h */,
+				DF27BC401AF8131000B8D747 /* detailViewController.m */,
+				DF27BC441AF8354900B8D747 /* collectionCollectionViewController.h */,
+				DF27BC451AF8354900B8D747 /* collectionCollectionViewController.m */,
+				DFE490F51AFD2E4E00B2DBFE /* Cafe.h */,
+				DFE490F61AFD2E4E00B2DBFE /* Cafe.m */,
 			);
 			path = travellingRogue;
 			sourceTree = "<group>";
@@ -96,8 +137,16 @@
 		DF27BC071AF8044F00B8D747 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFE490F81AFD5D7400B2DBFE /* mokah.JPG */,
+				DFE490F91AFD5D7400B2DBFE /* houndsooth.JPG */,
+				DFE490FA1AFD5D7400B2DBFE /* mudsmith.JPG */,
+				DFE490FB1AFD5D7400B2DBFE /* weekend.JPG */,
+				DF27BC421AF81EB800B8D747 /* floral.jpg */,
 				DF27BC081AF8044F00B8D747 /* Info.plist */,
 				DF27BC091AF8044F00B8D747 /* main.m */,
+				DF27BC391AF8109E00B8D747 /* kittenGroup.jpeg */,
+				DF27BC3B1AF810D600B8D747 /* platypus.jpg */,
+				DF27BC3C1AF810D600B8D747 /* kitten.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -199,9 +248,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFE490FE1AFD5D7400B2DBFE /* mudsmith.JPG in Resources */,
+				DFE490FC1AFD5D7400B2DBFE /* mokah.JPG in Resources */,
 				DF27BC131AF8044F00B8D747 /* Main.storyboard in Resources */,
 				DF27BC181AF8044F00B8D747 /* LaunchScreen.xib in Resources */,
+				DF27BC3D1AF810D600B8D747 /* platypus.jpg in Resources */,
+				DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */,
+				DFE490FF1AFD5D7400B2DBFE /* weekend.JPG in Resources */,
+				DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */,
 				DF27BC151AF8044F00B8D747 /* Images.xcassets in Resources */,
+				DF27BC3A1AF8109E00B8D747 /* kittenGroup.jpeg in Resources */,
+				DFE490FD1AFD5D7400B2DBFE /* houndsooth.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +276,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF27BC101AF8044F00B8D747 /* ViewController.m in Sources */,
+				DFE490F71AFD2E4E00B2DBFE /* Cafe.m in Sources */,
+				DF27BC101AF8044F00B8D747 /* LoginViewController.m in Sources */,
+				DF27BC461AF8354900B8D747 /* collectionCollectionViewController.m in Sources */,
 				DF27BC0D1AF8044F00B8D747 /* AppDelegate.m in Sources */,
+				DF27BC381AF80DB500B8D747 /* Student.m in Sources */,
 				DF27BC0A1AF8044F00B8D747 /* main.m in Sources */,
+				DF27BC351AF80A7500B8D747 /* TableViewController.m in Sources */,
+				DF27BC411AF8131000B8D747 /* detailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +478,7 @@
 				DF27BC291AF8045000B8D747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF27BC2A1AF8045000B8D747 /* Build configuration list for PBXNativeTarget "travellingRogueTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +487,7 @@
 				DF27BC2C1AF8045000B8D747 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
