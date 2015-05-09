@@ -20,6 +20,10 @@
 		DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC3C1AF810D600B8D747 /* kitten.jpg */; };
 		DF27BC411AF8131000B8D747 /* detailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF27BC401AF8131000B8D747 /* detailViewController.m */; };
 		DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF27BC421AF81EB800B8D747 /* floral.jpg */; };
+		DF8086681AFE058E00A0425D /* crooked.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF8086641AFE058E00A0425D /* crooked.JPG */; };
+		DF8086691AFE058E00A0425D /* hsweet.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF8086651AFE058E00A0425D /* hsweet.JPG */; };
+		DF80866A1AFE058E00A0425D /* murray.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF8086661AFE058E00A0425D /* murray.JPG */; };
+		DF80866B1AFE058E00A0425D /* method.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DF8086671AFE058E00A0425D /* method.JPG */; };
 		DFD45F5B1AFDCD6B0080404F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5A1AFDCD6B0080404F /* FBSDKShareKit.framework */; };
 		DFD45F5D1AFDCD740080404F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5C1AFDCD740080404F /* FBSDKLoginKit.framework */; };
 		DFD45F5F1AFDCD7A0080404F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD45F5E1AFDCD7A0080404F /* FBSDKCoreKit.framework */; };
@@ -62,6 +66,10 @@
 		DF27BC3F1AF8131000B8D747 /* detailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailViewController.h; sourceTree = "<group>"; };
 		DF27BC401AF8131000B8D747 /* detailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailViewController.m; sourceTree = "<group>"; };
 		DF27BC421AF81EB800B8D747 /* floral.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = floral.jpg; sourceTree = "<group>"; };
+		DF8086641AFE058E00A0425D /* crooked.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = crooked.JPG; sourceTree = "<group>"; };
+		DF8086651AFE058E00A0425D /* hsweet.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hsweet.JPG; sourceTree = "<group>"; };
+		DF8086661AFE058E00A0425D /* murray.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = murray.JPG; sourceTree = "<group>"; };
+		DF8086671AFE058E00A0425D /* method.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = method.JPG; sourceTree = "<group>"; };
 		DFD45F5A1AFDCD6B0080404F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		DFD45F5C1AFDCD740080404F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		DFD45F5E1AFDCD7A0080404F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
@@ -140,6 +148,10 @@
 		DF27BC071AF8044F00B8D747 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DF8086641AFE058E00A0425D /* crooked.JPG */,
+				DF8086651AFE058E00A0425D /* hsweet.JPG */,
+				DF8086661AFE058E00A0425D /* murray.JPG */,
+				DF8086671AFE058E00A0425D /* method.JPG */,
 				DFE490F81AFD5D7400B2DBFE /* mokah.JPG */,
 				DFE490F91AFD5D7400B2DBFE /* houndsooth.JPG */,
 				DFE490FA1AFD5D7400B2DBFE /* mudsmith.JPG */,
@@ -251,13 +263,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF8086681AFE058E00A0425D /* crooked.JPG in Resources */,
 				DFE490FE1AFD5D7400B2DBFE /* mudsmith.JPG in Resources */,
 				DFE490FC1AFD5D7400B2DBFE /* mokah.JPG in Resources */,
+				DF80866A1AFE058E00A0425D /* murray.JPG in Resources */,
+				DF8086691AFE058E00A0425D /* hsweet.JPG in Resources */,
 				DF27BC131AF8044F00B8D747 /* Main.storyboard in Resources */,
 				DF27BC181AF8044F00B8D747 /* LaunchScreen.xib in Resources */,
 				DF27BC3D1AF810D600B8D747 /* platypus.jpg in Resources */,
 				DF27BC431AF81EB800B8D747 /* floral.jpg in Resources */,
 				DFE490FF1AFD5D7400B2DBFE /* weekend.JPG in Resources */,
+				DF80866B1AFE058E00A0425D /* method.JPG in Resources */,
 				DF27BC3E1AF810D600B8D747 /* kitten.jpg in Resources */,
 				DFD45F611AFDDB6E0080404F /* Info.plist in Resources */,
 				DF27BC151AF8044F00B8D747 /* Images.xcassets in Resources */,
